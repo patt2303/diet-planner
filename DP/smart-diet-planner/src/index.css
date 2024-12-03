@@ -1,0 +1,53 @@
+/* index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #11439b; /* Soft light blue */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+input, select, button {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form Elements */
+input, select, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"], input[type="number"], select {
+  background-color: #f8f8f8;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Basic Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
